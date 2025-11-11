@@ -260,8 +260,8 @@ async function initializeRecast(): Promise<number> {
 // ============================================================================
 
 function createGenerationOptions(): GenerationOptions {
-	const cellSize = 0.1;
-	const cellHeight = 0.2;
+	const cellSize = 0.15;
+	const cellHeight = 0.3;
 	const walkableClimbWorld = 0.5;
 	const walkableHeightWorld = 1.0;
 	const walkableRadiusWorld = 0.2;
